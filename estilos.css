@@ -191,7 +191,7 @@ body{
 
 #sintaxis{
 	width: 80%;
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 #encuenta	{
@@ -231,6 +231,12 @@ body{
 	z-index: 2;
 }
 
+#sintaxisf{
+	width: 80%;
+	margin-left: 10%;
+	position: absolute;
+}
+
 #sintaxisf:hover #parrafosf{
 	display: block;
 }
@@ -238,7 +244,7 @@ body{
 #botonsf{
 	margin-left: 45%;
 	font-size: 250%;
-	margin-top: -4%;
+	margin-top: -5%;
 	font-family: fantasy;
 	color: #E59FA9;
 	position: absolute;
@@ -580,6 +586,7 @@ body{
 	width: 50%;
 	margin-left: 25%;
 
+
 }
 
 #tablamacros{
@@ -599,8 +606,9 @@ body{
 
 #grabacionmacro{
 	width: 40%;
-	margin-left: 45%;
-	margin-top: -35%;
+	margin-left: 5%;
+	margin-top: -20%;
+	position: absolute;
 }
 
 #detenermacro{
