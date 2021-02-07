@@ -1,0 +1,846 @@
+body{
+	z-index: 1;
+	font-family: Goudy Old Style;
+
+}
+
+#fondo{
+	position: fixed;
+	background-repeat: no-repeat;
+	width: 110%;
+	height: 100%;
+	z-index: -1;
+	margin-left: -1%;
+	opacity: 0.5;
+}
+
+#flecha{
+	position: fixed;
+	z-index: 2;
+	width: 5%;
+	height: 10%;
+	margin-left: 93%;
+	margin-top: 4%;
+}
+
+#flecha:hover{
+	width: 6%;
+	height: 11%;
+	margin-left: 92.5%;
+}
+
+#volver{
+	position: fixed;
+	z-index: 2;
+	width: 5%;
+	height: 10%;
+	margin-left: 93%;
+	margin-top: 1%;
+	font-size: 150%;
+	font-family: fantasy;
+	text-decoration: none;
+	color: #456B42;
+}
+
+#volver:hover{
+	width: 6%;
+	height: 11%;
+	font-size:155%; 
+	color: #9CBA9A;
+}
+
+#separador1{
+	position: absolute;
+	width: 80%;
+	height: 25%;
+	margin-left: 10%;
+	margin-top: 35%;
+
+}
+
+#separador2{
+	position: absolute;
+	width: 80%;
+	height: 25%;
+	margin-left: 10%;
+	margin-top: 80%;
+	
+}
+
+#separador3{
+	position: absolute;
+	width: 80%;
+	height: 25%;
+	margin-left: 10%;
+	margin-top: 190%;
+
+}
+
+
+#separadorindice{
+	position: absolute;
+	width: 80%;
+	height: 25%;
+	margin-left: 10%;
+	
+}
+
+
+/*BANNER*/
+
+#banner{
+	width: 100%;
+	height: 25%;
+	margin-left: -0.5%;
+	margin-top: -0.5%;
+	position: fixed;
+	z-index: 2;
+	opacity: 0.8;
+}
+
+
+/*INDICE*/
+
+#indice{
+	font-family: cursive;
+	text-align: center;
+	background: url(indice.jpg);
+	padding: 2%;
+	width: 25%;
+	height: 40%;
+	margin-left: 10%;
+	margin-top: 13%;
+	background-size: cover;
+	position: absolute;
+	font-size: 200%;
+	z-index: 1.5%;
+}
+
+
+#boton1{
+	text-decoration: none;
+	color: black;
+}
+#boton1:hover{
+	font-size: 130%;
+	color: #D6DAFC;
+	transition: all 0.2s;
+}
+
+#boton2{
+	text-decoration: none;
+	color: black;
+}
+#boton2:hover{
+	font-size: 130%;
+	color: #D6DAFC;
+	transition: all 0.2s;
+}
+
+
+#boton3{
+	text-decoration: none;
+	color: black;
+}
+#boton3:hover{
+	font-size: 130%;
+	color: #D6DAFC;
+	transition: all 0.2s;
+}
+
+/*HOLA*/
+#hola{
+	width: 50%;
+	margin-left: 40%;
+	margin-top: 13.2%;
+	position: absolute;
+}
+
+
+/*FUNCION*/
+#funciones{
+	position: absolute;
+	margin-top: 43%;
+	font-family: Goudy Old Style;
+
+}
+
+#pfuncion{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#bannerf{
+	width: 80%;
+	height: 70%;
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+
+
+#funcion1{
+	opacity: 0.8;
+	margin-left: 10%;
+	width: 80%;
+	display: none;
+	position: absolute;
+	margin-top: 4%;
+	z-index: 2;
+}
+
+#sintaxis{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#encuenta	{
+	width: 80%;
+	margin-left: 10%;
+		display: none;
+	position: absolute;
+	margin-top: 2%;
+	z-index: 2;
+}
+
+
+#quesf:hover #funcion1{
+	display: block;
+}
+
+#botonf{
+	margin-left: 25%;
+	font-size: 250%;
+	margin-top: -1%;
+	font-family: fantasy;
+	color: #E59FA9;
+	position: absolute;
+}
+
+#botonf:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+#parrafosf{
+	display: none;
+	position: absolute;
+	margin-top: 2%;
+	background: url(fondo.jpg);
+	z-index: 2;
+}
+
+#sintaxisf:hover #parrafosf{
+	display: block;
+}
+
+#botonsf{
+	margin-left: 45%;
+	font-size: 250%;
+	margin-top: -4%;
+	font-family: fantasy;
+	color: #E59FA9;
+	position: absolute;
+}
+
+#botonsf:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+
+#funcion3:hover #encuenta{
+	display: block;
+}
+
+#botonf3{
+	margin-left: 65%;
+	font-size: 250%;
+	margin-top: -4%;
+	font-family: fantasy;
+	color: #E59FA9;
+	position: absolute;
+}
+
+#botonf3:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+/* BUSCARV */
+#buscarv{
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	margin-top: 95%;
+}
+
+#banner1{
+	width: 81%;
+	height: 70%;
+	margin-left: 10%;
+}
+
+
+#sintaxisbuscarv{
+	width: 81%;
+	margin-left: 10%;
+	display: none;
+	position: absolute;
+	margin-top: 10%;
+	z-index: 2;
+}
+
+#tabla{
+	width: 50%;
+	margin-left: 25%;
+}
+ 
+#capturabuscarvsintaxis{
+	width: 20%;
+	margin-left: 40%;
+}
+#p1buscarv{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: -2%;
+}
+
+#p2buscarv{
+	width: 50%;
+	margin-left: 25%;
+}
+
+#p3buscarv{
+	width: 50%;
+	margin-left: 25%;
+}
+
+#p4buscarv{
+	width: 40%;
+	margin-left: 30%;
+}
+
+#BUSCARV{
+	margin-left: 10%;
+}
+
+#cbuscarv{
+	width: 50%;
+	margin-left: 45%;
+	margin-top: -10%;
+	
+}
+
+#definicionbuscarv{
+	width: 81%;
+	margin-left: 10%;
+	display: none;
+	position: absolute;
+	margin-top: 10%;
+	z-index: 2;
+}
+
+#quesbuscarv:hover #definicionbuscarv{
+	display: block;
+	transition: all 0.2s;
+}
+
+#botonbv1{
+	margin-left: 30%;
+	font-size: 250%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#botonbv1:hover{
+	font-size: 255%;
+	color: #98A0E0;
+	transition: all 0.2s;
+}
+
+#sintaxisbv:hover #sintaxisbuscarv{
+	display: block;
+	transition: all 0.2s;
+}
+
+
+#botonbv2{
+	margin-left: 60%;
+	font-size: 250%;
+	margin-top: 3%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#botonbv2:hover{
+	font-size: 255%;
+	color: #98A0E0;
+	transition: all 0.2s;
+}
+
+#ejemplo{
+	position: absolute;
+	margin-top: 10%;
+}
+
+#parrafop1{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	margin-top: 4%;
+	background: url(fondo.jpg);
+
+}
+
+#parametro1:hover #parrafop1{ 
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#titulop1{
+	margin-left: 15%;
+	font-size: 250%;
+	margin-top: -1%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#titulop1:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+
+#parrafop2{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	margin-top: 1%;
+	background: url(fondo.jpg);
+}
+
+#parametro2:hover #parrafop2{ 
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#titulop2{
+	margin-left: 30%;
+	font-size: 250%;
+	margin-top: -4%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#titulop2:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+
+#parrafop3{
+	display: none;
+	background-color: gray;
+	position: absolute;
+	z-index: 2;
+	margin-top: -2%;
+	background: url(fondo.jpg);
+}
+
+#parametro3:hover #parrafop3{ 
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#titulop3{
+	margin-left: 45%;
+	font-size: 250%;
+	margin-top: -7%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#titulop3:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+
+#parrafop4{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	margin-top: -5%;
+	background: url(fondo.jpg);
+}
+
+#parametro4:hover #parrafop4{ 
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#titulop4{
+	margin-left: 60%;
+	font-size: 250%;
+	margin-top: -10%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#titulop4:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+#parrafop5{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	margin-top: -8%;
+	background: url(fondo.jpg);
+}
+
+#parametro5:hover #parrafop5{ 
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#titulop5{
+	margin-left: 75%;
+	font-size: 250%;
+	margin-top: -13%;
+	font-family: fantasy;
+	color: #414DB3;
+	position: absolute;
+}
+
+#titulop5:hover{
+	font-size: 255%;
+	color: #D298E0;
+	transition: all 0.2s;
+}
+
+
+
+
+/* MACROS */
+#macros{
+	margin-top: 203%;
+	width: 98%;
+	height: 50%;
+	position: absolute;
+}
+
+#banner2{
+	width: 80%;
+	height: 70%;
+	margin-left: 10%;
+}
+
+#defimacros{
+	width: 80%;
+	margin-left: 10%;
+		
+}
+
+#pestaña{
+	width: 80%;
+	margin-left: 10%;
+}
+#desarrollador{
+	width: 50%;
+	margin-left: 25%;
+
+}
+
+#tablamacros{
+	width: 30%;
+	margin-left: 35%;
+}
+
+#botonmacro{
+	width: 30%;
+	margin-left: 35%;
+}
+#grabarmacro{
+	width: 20%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+#grabacionmacro{
+	width: 40%;
+	margin-left: 45%;
+	margin-top: -35%;
+}
+
+#detenermacro{
+	width: 20%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+
+#asignarmacro{
+	width: 30%;
+	margin-left: 35%;
+
+}
+#MACRO{
+	margin-left: 10%;
+}
+
+#parrafom1{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+	background: url(fondo.jpg);
+}
+
+#pasom1:hover #parrafom1{
+	display: block;
+}
+
+
+#botonm1{
+	margin-left: 10%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonm1:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+
+#parrafomvideo{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+	background: url(fondo.jpg);
+}
+
+#pasomvideo:hover #parrafomvideo{
+	display: block;
+}
+
+
+#botonmvideo{
+	margin-left: 22%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonmvideo:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+
+
+#parrafom2{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+	background: url(fondo.jpg);
+}
+
+#pasom2:hover #parrafom2{
+	display: block;
+}
+
+
+#botonm2{
+	margin-left: 32%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonm2:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+#parrafom3{
+	display: none;
+
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+	background: url(fondo.jpg);
+}
+
+#pasom3:hover #parrafom3{
+	display: block;
+}
+
+
+#botonm3{
+	margin-left: 44%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonm3:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+
+#parrafom4{
+	display: none;
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+	background: url(fondo.jpg);
+}
+
+#pasom4:hover #parrafom4{
+	display: block;
+}
+
+
+#botonm4{
+	margin-left: 55%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonm4:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+#parrafom5{
+	display: none;
+	background: url(fondo.jpg);
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+}
+
+#pasom5:hover #parrafom5{
+	display: block;
+}
+
+
+#botonm5{
+	margin-left: 67%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonm5:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+#parrafom6{
+	display: none;
+	background: url(fondo.jpg);
+	position: absolute;
+	z-index: 2;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 6%;
+}
+
+#pasom6:hover #parrafom6{
+	display: block;
+}
+
+
+#botonm6{
+	margin-left: 80%;
+	font-size: 250%;
+	margin-top: 2%;
+	font-family: fantasy;
+	color: #E5905D;
+	position: absolute;
+}
+
+#botonm6:hover{
+	font-size: 255%;
+	color: #E5C09F;
+	transition: all 0.2s;
+}
+
+
+#pfuncionbye{
+	margin-left: 10%;
+	margin-right: 10%;
+	position: absolute;
+	margin-top: 10%;
+}
